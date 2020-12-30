@@ -1,5 +1,7 @@
+//Make sure to make this your package
 package yourPackage;
 
+//The imports
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -8,12 +10,14 @@ import org.bukkit.inventory.ItemStack;
 
 public class Gui {
 
+    //Define the variables
     Inventory gui;
     String guiName;
     Player player;
     int rows;
     ItemStack[] items;
 
+    //The actual creationg of the GUI
     public Gui(Player player, String guiName, int rows, ItemStack[] items) {
 
         this.guiName = guiName;
@@ -23,6 +27,7 @@ public class Gui {
 
     }
 
+    //The rest are the methods
     public void setPlayer(Player player) {
         this.player = (player);
     }
