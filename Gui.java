@@ -16,7 +16,7 @@ public class Gui {
     int rows;
     ItemStack[] items;
 
-    //The actual creationg of the GUI
+    //The actual creating of the GUI
     public Gui(Player player, String guiName, int rows, ItemStack[] items) {
 
         this.guiName = guiName;
