@@ -1,6 +1,5 @@
-# MC-Plugin-Libraries
-All of my Java Minecraft Plugin Libraries!
+# The GUI Libraries
+These are the downloads for the GUI library, for info on how to install/use go to the wiki ()
 
-Hello! These are java libraries I have coded for you to use! Feel free to use these for anything!
-For more details of how to install/use go to the spigot post I made! (Will be making more indepth instructions soon)
-https://www.spigotmc.org/threads/gui-library-i-made.480219
+You can use this Library for anything as long as you dont claim you coded all of it, if you change it up thats fine!
+Also if you have any feedback/suggestions tell me!
