@@ -6,4 +6,5 @@ For more details of how to install/use go to the spigot post I made! (Will be ma
 https://www.spigotmc.org/threads/gui-library-i-made.480219
 
 For the download to the GUI libraries go here: https://github.com/Rockyers/MC-Plugin-Libraries/tree/GUI-Library-Downloads
-and the WIKI for the GUI libraries go here: 
+
+and the WIKI for the GUI libraries go here: https://github.com/Rockyers/MC-Plugin-Libraries/wiki/GUI-Library
