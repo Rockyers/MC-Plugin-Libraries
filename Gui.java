@@ -62,8 +62,6 @@ public class Gui {
         return this.gui.getItem(itemSlot);
     }
 
-    }
-
     public int getRows() {
         return this.rows;
     }
