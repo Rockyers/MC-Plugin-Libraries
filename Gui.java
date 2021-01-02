@@ -13,7 +13,6 @@ public class Gui {
     //Define the variables
     Inventory gui;
     String guiName;
-    Player player;
     int rows;
     ItemStack[] items;
 
@@ -21,17 +20,12 @@ public class Gui {
     public Gui(Player player, String guiName, int rows, ItemStack[] items) {
 
         this.guiName = guiName;
-        this.player = player;
         this.rows = rows;
         this.items = items;
 
     }
 
     //The rest are the methods
-    public void setPlayer(Player player) {
-        this.player = (player);
-    }
-
     public void setItems(ItemStack[] items) {
         this.items = items;
     }
@@ -48,11 +42,11 @@ public class Gui {
         this.gui.setItem(slot, item);
     }
 
-    public void openGui() {
+    public void openGui(Player player) {
 
-        this.gui = Bukkit.createInventory(this.player, this.rows * 9, ChatColor.translateAlternateColorCodes('&', this.guiName));
+        this.gui = Bukkit.createInventory(player, this.rows * 9, ChatColor.translateAlternateColorCodes('&', this.guiName));
         this.gui.setContents(this.items);
-        this.player.openInventory(this.gui);
+        player.openInventory(this.gui);
 
     }
 
@@ -68,12 +62,6 @@ public class Gui {
         return this.gui.getItem(itemSlot);
     }
 
-    public String getPlayerName() {
-        return this.player.getDisplayName();
-    }
-
-    public Player getPlayer() {
-        return this.player;
     }
 
     public int getRows() {
